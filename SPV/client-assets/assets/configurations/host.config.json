@@ -114,7 +114,7 @@
             "pid": ""
         },
         "env": "prod",
-        "channel": "",
+        "channel": "aastar",
         "batchsize": 1,
         "host": "",
         "endpoint": "/apis/protected/v8/user/telemetry",
@@ -132,7 +132,7 @@
             },
             "themeFile": "theme-igot",
             "themeClass": "theme-igot",
-            "themeName": "Aastar iGOT"
+            "themeName": "SPhere Org Manager"
         }
     ],
     "microsoft": {
