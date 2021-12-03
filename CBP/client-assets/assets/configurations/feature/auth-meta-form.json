@@ -1216,7 +1216,13 @@
     },
     "disabledFor": {},
     "mandatoryFor": {
-     
+      "Channel": [],
+      "CourseUnit": [],
+      "Course": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": [],
+      "Resource": []
     },
     "notDisabledFor": {
       "CourseUnit": [],
@@ -8874,7 +8880,13 @@
     },
     "disabledFor": {},
     "mandatoryFor": {
-      
+      "Channel": [],
+      "CourseUnit": [],
+      "Course": [],
+      "Knowledge Artifact": [],
+      "Knowledge Board": [],
+      "Learning Path": [],
+      "Resource": []
     },
     "notDisabledFor": {},
     "notMandatoryFor": {
