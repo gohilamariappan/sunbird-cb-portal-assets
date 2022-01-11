@@ -168,7 +168,7 @@
     "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
     "poweredBy": "eagle eagle",
     "landingLogo": "",
-"appBottomNav": "/assets/instances/eagle/app_logos/aastar-logo.svg"
+"appBottomNav": "/assets/instances/eagle/app_logos/source.png"
   },
   "sources": [
     {
@@ -317,7 +317,7 @@
             "actionBtnId": "feature_navigator",
             "config": {
               "type": "mat-button"
-            }
+            } 
           }
         }
       ],
