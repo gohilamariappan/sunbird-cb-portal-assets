@@ -384,8 +384,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "Channel": [],
@@ -881,9 +880,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-      
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Resource": [],
@@ -1119,9 +1116,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-      
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "CourseUnit": [],
@@ -2997,9 +2992,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-      
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "Channel": [],
@@ -3285,9 +3278,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-      
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "CourseUnit": [],
@@ -5308,9 +5299,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-      
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "Channel": [],
@@ -5612,9 +5601,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-      
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "Channel": [],
@@ -6401,8 +6388,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -7537,9 +7523,7 @@
       "Channel": [],
       "Knowledge Board": []
     },
-    "mandatoryFor": {
-      
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "CourseUnit": [],
@@ -7826,9 +7810,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-      
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Resource": [
@@ -8160,8 +8142,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "Channel": [],
@@ -8261,9 +8242,7 @@
       "Knowledge Artifact": [],
       "Knowledge Board": []
     },
-    "mandatoryFor": {
-      
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Channel": [],
@@ -8460,9 +8439,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-      
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Resource": [],
@@ -8780,9 +8757,7 @@
       "Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-      
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "Channel": [],
@@ -9721,6 +9696,136 @@
       "Knowledge Board": [],
       "Learning Path": [],
       "Resource": []
+    },
+    "type": "string"
+  },
+  "entryPoint": {
+    "defaultValue": {
+      "Channel": [
+        {
+          "condition": {
+            "contentType": [
+              "Channel"
+            ]
+          },
+          "value": ""
+        }
+      ],
+      "Collection": [
+        {
+          "condition": {
+            "contentType": [
+              "Collection"
+            ]
+          },
+          "value": ""
+        }
+      ],
+      "CourseUnit": [
+        {
+          "condition": {
+            "contentType": [
+              "CourseUnit"
+            ]
+          },
+          "value": ""
+        }
+      ],
+      "Course": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ]
+          },
+          "value": ""
+        }
+      ],
+      "Knowledge Artifact": [
+        {
+          "condition": {
+            "contentType": [
+              "Knowledge Artifact"
+            ]
+          },
+          "value": ""
+        }
+      ],
+      "Knowledge Board": [
+        {
+          "condition": {
+            "contentType": [
+              "Knowledge Board"
+            ]
+          },
+          "value": ""
+        }
+      ],
+      "Learning Path": [
+        {
+          "condition": {
+            "contentType": [
+              "Learning Path"
+            ]
+          },
+          "value": ""
+        }
+      ],
+      "Resource": [
+        {
+          "condition": {
+            "contentType": [
+              "Resource"
+            ]
+          },
+          "value": ""
+        }
+      ]
+    },
+    "disabledFor": {},
+    "mandatoryFor": {},
+    "notDisabledFor": {},
+    "notMandatoryFor": {
+      "Resource": [],
+      "Collection": [
+        {
+          "body": [
+            true
+          ]
+        }
+      ],
+      "CourseUnit": [
+        {
+          "body": [
+            true
+          ]
+        }
+      ],
+      "Course": [
+        {
+          "body": [
+            true
+          ]
+        }
+      ],
+      "Learning Path": [
+        {
+          "body": [
+            true
+          ]
+        }
+      ]
+    },
+    "notShowFor": {},
+    "showFor": {
+      "Resource": [
+        {
+          "mimeType": [
+            "application/html",
+            "application/vnd.ekstep.html-archive"
+          ]
+        }
+      ]
     },
     "type": "string"
   }
