@@ -1,0 +1,11 @@
+{
+    "userLoggedInSection": {
+        "firstCourse": true,
+        "howDoesItWork": true,
+        "categories": true,
+        "topCertifiedCourse": true,
+        "featured": true,
+        "followPeople": true,
+        "myCourses": true
+    }
+}
