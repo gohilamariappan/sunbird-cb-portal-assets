@@ -353,12 +353,11 @@
           }
         },
         {
-          "type": "featureButton",
+          "type": "widgetButton",
           "config": {
-            "actionBtnId": "feature_profile",
-            "config": {
-              "type": "card-mini"
-            }
+            "widgetType": "actionButton",
+            "widgetSubType": "actionButtonProfile",
+            "widgetData": {}
           }
         }
       ],
