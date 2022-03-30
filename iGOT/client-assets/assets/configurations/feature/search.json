@@ -7,28 +7,19 @@
       "duration": {
         "displayName": "Duration"
       },
-      "contentType": {
-        "displayName": "Content Type"
-      },
-      "exclusiveContent": {
-        "displayName": "Costs"
-      },
       "complexityLevel": {
         "displayName": "Level"
       },
       "catalogPaths": {
         "displayName": "Catalog",
-        "order": [
-          {
-            "_key": "asc"
-          }
-        ]
+          "order": [
+            {
+              "_key": "asc"
+            }
+          ]
       },
       "sourceShortName": {
         "displayName": "Source"
-      },
-      "resourceType": {
-        "displayName": "Format"
       },
       "region": {
         "displayName": "Region"
@@ -43,7 +34,7 @@
     "tabs": [
       {
         "searchQuery": {
-          "filters": {},
+          "filters": { "contentType": ["Course"] },
           "advancedFilters": []
         },
         "phraseSearch": false,
@@ -53,17 +44,17 @@
         "titleKey": "learning"
       }
     ],
-    "routeValue": [
-      "learning"
-    ],
-    "placeHolder": {
+      "routeValue": [
+        "learning"
+      ],
+        "placeHolder": {
       "learning": "What do you want to learn?"
     },
     "languageSearch": [
       "EN"
     ],
-    "missalaneous": {
-      "tabsToAdd": {}
+      "missalaneous": {
+      "tabsToAdd": { }
     },
     "suggestedFilters": []
   },
@@ -119,11 +110,6 @@
       ],
       "name": "mimeType",
       "displayname": "Resource type"
-    },
-    {
-      "values": [],
-      "name": "source",
-      "displayname": "Providers"
     }
   ]
 }

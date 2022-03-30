@@ -70,8 +70,8 @@
     ],
     "clientId": "portal",
     "key": "ws-kc-token-storage",
-    "realm": "wingspan",
-    "url": "https://sphere.aastrika.org/auth"
+    "realm": "sunbird",
+    "url": "https://aastrika-sb.idc.tarento.com/auth"
   },
   "locals": [
     {
@@ -317,7 +317,7 @@
             "actionBtnId": "feature_navigator",
             "config": {
               "type": "mat-button"
-            }
+            } 
           }
         }
       ],
@@ -346,6 +346,15 @@
         {
           "type": "featureButton",
           "config": {
+            "actionBtnId": "feature_home",
+            "config": {
+              "type": "card-mini"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
             "actionBtnId": "feature_profile",
             "config": {
               "type": "card-mini"
@@ -357,7 +366,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_search",
+            "actionBtnId": "feature_notification",
             "config": {
               "type": "card-mini"
             }

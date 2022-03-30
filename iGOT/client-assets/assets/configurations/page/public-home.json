@@ -102,19 +102,10 @@
                         }
                       }
                     },
-                    "viewMoreUrl": {
-                      "path": "/app/search/learning",
-                      "queryParams": {
-                        "tab": "Learn",
-                        "q": "",
-                        "p": "Trending",
-                        "f": "{\"primaryCategory\": [\"Course\"], \"contentType\": [\"Course\"]}"
-                      }
-                    },
                     "stripConfig": {
                       "cardSubType": "standard",
                       "postCardForSearch": true
-                    },
+                    }, 
                     "filters": [],
                     "request": {
                       "searchV6": {

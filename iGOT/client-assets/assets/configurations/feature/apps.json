@@ -148,29 +148,6 @@
       "url": "/app/profile/competency/badges",
       "shortName": "Badges"
     },
-    "feature_catalog": {
-      "accessKey": "",
-      "icon": "explore",
-      "iconType": "mat-icon",
-      "id": "feature_catalog",
-      "keywords": [
-        "catalog",
-        "explore",
-        "inventory",
-        "list",
-        "brochure",
-        "overview"
-      ],
-      "name": "Explore",
-      "permission": [
-        ""
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "Explore",
-      "url": "/page/explore",
-      "shortName": "Explore"
-    },
     "feature_authoring": {
       "accessKey": "",
       "icon": "account_box",
@@ -325,7 +302,7 @@
       "shortName": "Playlists"
     },
     "feature_profile": {
-      "accessKey": "U",
+      "accessKey": "",
       "icon": "account_circle",
       "iconType": "mat-icon",
       "id": "feature_profile",
@@ -342,11 +319,11 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "/app/profile",
+      "url": "/app/profile/dashboard",
       "shortName": "Profile"
     },
     "feature_profile_update": {
-      "accessKey": "U",
+      "accessKey": "",
       "icon": "create",
       "iconType": "mat-icon",
       "id": "feature_profile_update",
@@ -516,13 +493,15 @@
         "CONTENT_REVIEWER", 
         "CONTENT_PUBLISHER", 
         "spv_admin",
-        "mdo_admin"
+        "mdo_admin",
+        "MDO_ADMIN",
+        "SPV_ADMIN"
       ],
       "show": true,
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "http://aastrika-sb-cbp.idc.tarento.com/"
+      "url": "https://cbp-sphere.aastrika.org/"
     },
     "feature_mdo": {
       "accessKey": "",
@@ -535,7 +514,8 @@
       ],
       "name": "MDO",
       "permission": [
-        "mdo_admin"
+        "mdo_admin",
+        "MDO_ADMIN"
       ],
       "shortName": "MDP",
       "show": true,
@@ -554,7 +534,8 @@
       ],
       "name": "SPV",
       "permission": [
-        "spv_admin"
+        "spv_admin",
+        "SPV_ADMIN"
       ],
       "shortName": "SPV",
       "show": true,
