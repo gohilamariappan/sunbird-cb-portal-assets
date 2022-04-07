@@ -337,15 +337,6 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_catalog",
-            "config": {
-              "type": "card-mini"
-            }
-          }
-        },
-        {
-          "type": "featureButton",
-          "config": {
             "actionBtnId": "feature_home",
             "config": {
               "type": "card-mini"
