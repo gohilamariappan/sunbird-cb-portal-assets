@@ -93,8 +93,7 @@
         }
       },
       "additionalMeta": {
-        "isExternal": false,
-        "isIframeSupported": "Yes"
+        "isExternal": false
       },
       "children": [
         "url",
@@ -142,7 +141,6 @@
       },
       "additionalMeta": {
         "isExternal": false,
-        "isIframeSupported": "Yes"
       },
       "children": []
     },
@@ -183,7 +181,6 @@
       },
       "additionalMeta": {
         "isExternal": false,
-        "isIframeSupported": "Yes"
       },
       "children": []
     },
@@ -224,7 +221,6 @@
       },
       "additionalMeta": {
         "isExternal": false,
-        "isIframeSupported": "Yes"
       },
       "children": []
     },
@@ -264,7 +260,6 @@
       },
       "additionalMeta": {
         "isExternal": true,
-        "isIframeSupported": "No"
       },
       "children": []
     },
@@ -304,7 +299,6 @@
       },
       "additionalMeta": {
         "isExternal": false,
-        "isIframeSupported": "Yes"
       },
       "children": []
     },
@@ -344,7 +338,6 @@
       },
       "additionalMeta": {
         "isExternal": false,
-        "isIframeSupported": "Yes"
       },
       "children": []
     },
@@ -387,7 +380,6 @@
       },
       "additionalMeta": {
         "isExternal": false,
-        "isIframeSupported": "Yes"
       }
     },
     {
@@ -540,8 +532,7 @@
         }
       },
       "additionalMeta": {
-        "isExternal": false,
-        "isIframeSupported": "Yes"
+        "isExternal": false
       }
     },
     {
@@ -623,8 +614,7 @@
         }
       },
       "additionalMeta": {
-        "isExternal": true,
-        "isIframeSupported": "No"
+        "isExternal": true
       }
     }
   ],
