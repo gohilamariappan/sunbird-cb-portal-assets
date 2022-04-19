@@ -337,19 +337,18 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_catalog",
+            "actionBtnId": "feature_home",
             "config": {
               "type": "card-mini"
             }
           }
         },
         {
-          "type": "featureButton",
+          "type": "widgetButton",
           "config": {
-            "actionBtnId": "feature_profile",
-            "config": {
-              "type": "card-mini"
-            }
+            "widgetType": "actionButton",
+            "widgetSubType": "actionButtonProfile",
+            "widgetData": {}
           }
         }
       ],
@@ -357,7 +356,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_search",
+            "actionBtnId": "feature_notification",
             "config": {
               "type": "card-mini"
             }
