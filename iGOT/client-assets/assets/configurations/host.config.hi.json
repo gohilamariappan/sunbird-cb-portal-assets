@@ -71,8 +71,7 @@
           "isEnabled": true,
           "locals": [
               "en",
-              "en-US",
-              "hi"
+              "en-US"
           ],
           "path": "",
           "isRTL": false

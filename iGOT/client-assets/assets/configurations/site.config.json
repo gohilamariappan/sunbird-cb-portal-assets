@@ -22,7 +22,7 @@
   ],
   "rootOrg": "aastar",
   "defaultFontSize": "theme-igot",
-  "defaultLocale": "",
+  "defaultLocale": "en",
   "defaultThemeClass": "theme-igot",
   "details": {
     "appName": "Aastrika"
@@ -85,7 +85,17 @@
       "isRTL": false
     },
     {
-      "isAvailable": false,
+      "isAvailable": true,
+      "isEnabled": true,
+      "locals": [
+        "hi",
+        "hi-IN"
+      ],
+      "path": "hi",
+      "isRTL": false
+    },
+    {
+      "isAvailable": true,
       "isEnabled": false,
       "locals": [
         "de"
