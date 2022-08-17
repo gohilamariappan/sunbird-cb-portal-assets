@@ -86,7 +86,7 @@
                 "strips": [
                   {
                     "key": "latest",
-                    "title": "Latest",
+                    "title": "नवीनतम",
                     "info": {
                       "mode": "below",
                       "visibilityMode": "hidden",
@@ -98,7 +98,7 @@
                         "widgetType": "element",
                         "widgetSubType": "elementHtml",
                         "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">This is where you’ll see which topics are in news right now.</p>"
+                          "html": "<p class=\"ws-mat-primary-text\">यह वह जगह है जहां आप देखेंगे कि अभी कौन से विषय चर्चा में हैं।</p>"
                         }
                       }
                     },
@@ -140,12 +140,12 @@
                 "strips": [
                   {
                     "key": "continueLearning",
-                    "title": "My Courses",
+                    "title": "मेरे पाठ्यक्रम",
                     "noDataWidget": {
                       "widgetType": "element",
                       "widgetSubType": "elementHtml",
                       "widgetData": {
-                        "html": "<p class=\"ws-mat-primary-text\">Learning activities you start will appear here.</p>"
+                        "html": "<p class=\"ws-mat-primary-text\">आपके द्वारा प्रारंभ की जाने वाली शिक्षण गतिविधियां यहां दिखाई देंगी</p>"
                       }
                     },
                     "info": {
@@ -159,7 +159,7 @@
                         "widgetType": "element",
                         "widgetSubType": "elementHtml",
                         "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">These are the learning activities you’ve started but haven’t finished yet. Ready to keep going?</p>"
+                          "html": "<p class=\"ws-mat-primary-text\">ये सीखने की गतिविधियाँ हैं जिन्हें आपने शुरू किया है लेकिन अभी तक समाप्त नहीं किया है। चलते रहने के लिए तैयार हैं?</p>"
                         }
                       }
                     },
