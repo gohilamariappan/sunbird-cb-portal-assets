@@ -354,11 +354,12 @@
           }
         },
         {
-          "type": "widgetButton",
+          "type": "featureButton",
           "config": {
-            "widgetType": "actionButton",
-            "widgetSubType": "actionButtonProfile",
-            "widgetData": {}
+            "actionBtnId": "feature_notification",
+            "config": {
+              "type": "card-mini"
+            }
           }
         }
       ],
@@ -366,7 +367,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_notification",
+            "actionBtnId": "feature_profile",
             "config": {
               "type": "card-mini"
             }

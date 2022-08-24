@@ -1,14 +1,14 @@
 {
     "userLoggedInSection": {
         "firstCourse": true,
-        "howDoesItWork": true,
+        "howDoesItWork": false,
         "categories": true,
         "topCertifiedCourse": true,
         "featured": true,
-        "followPeople": true,
+        "followPeople": false,
         "myCourses": true
     },
-    "topCertifiedCourseIdentifier": ["do_11346794242655027211","do_1134178372845649921545", "do_1134170690068725761467", "do_11342648503935795211688"],
+    "topCertifiedCourseIdentifier": ["do_1134170690099118081470","do_11342648503935795211688", "do_1134170689871134721450", "do_1134948846567587841450"],
 
-    "featuredCourseIdentifier":["do_1134170690078638081468"]
+    "featuredCourseIdentifier":["do_1135849282931015681216"]
 }
