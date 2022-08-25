@@ -75,6 +75,16 @@
           ],
           "path": "",
           "isRTL": false
+      },
+            {
+          "isAvailable": true,
+          "isEnabled": true,
+          "locals": [
+              "hi",
+              "hi-IN"
+          ],
+          "path": "hi",
+          "isRTL": false
       }
   ],
   "logos": {
