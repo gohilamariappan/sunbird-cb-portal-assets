@@ -23,11 +23,7 @@
     "dopt",
     "istm"
   ],
-<<<<<<< HEAD
   "rootOrg": "aastar",
-=======
-  "rootOrg": "SPhere Org Manager",
->>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
   "defaultThemeClass": "theme-igot",
@@ -64,15 +60,9 @@
     }
   ],
   "indexHtmlMeta": {
-<<<<<<< HEAD
     "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
     "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest",
     "xIcon": "/assets/configurations/learning.aastar.org/manifest/favicon.ico"
-=======
-    "description": "SPhere Org Manager is a learning platform aimed at promoting capacity development.",
-    "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/manifest/favicon.ico"
->>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
   },
   "locals": [
     {
@@ -162,11 +152,7 @@
   "logos": {
     "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
-<<<<<<< HEAD
     "appBottomNav": "/assets/instances/eagle/app_logos/aastar-source.png",
-=======
-    "appBottomNav": "/assets/instances/eagle/app_logos/source.png",
->>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "defaultContent": "/assets/instances/eagle/app_logos/default.png",
     "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
@@ -216,11 +202,7 @@
       "pid": ""
     },
     "env": "prod",
-<<<<<<< HEAD
     "channel": "SPhere Org Manager",
-=======
-    "channel": "aastar",
->>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     "batchsize": 10,
     "host": "",
     "endpoint": "/apis/protected/v8/user/telemetry",
@@ -238,11 +220,7 @@
       },
       "themeFile": "theme-igot",
       "themeClass": "theme-igot",
-<<<<<<< HEAD
       "themeName": "SPhere Org Manager Theme"
-=======
-      "themeName": "Aastar Theme"
->>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     }
   ],
   "validMailIdExtensionsForMailMe": [
