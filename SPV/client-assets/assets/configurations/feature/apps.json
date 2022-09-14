@@ -19,7 +19,7 @@
       "show": true,
       "status": "beta",
       "toolTip": "FAQs",
-      "url": "/app/info/faq",
+      "url": "http://support.aastrika.org",
       "shortName": "Help"
     },
     "feature_admin": {
@@ -323,7 +323,7 @@
       "status": "live",
       "toolTip": "SPV",
       "shortName": "SPV",
-      "url": "https://spv.igot-dev.in/"
+      "url": "https://aastrika-sb-spv.idc.tarento.com/"
     },
     "feature_create": {
       "accessKey": "",
@@ -449,7 +449,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "/app/person-profile/me",
+      "url": "https://aastrika-sb.idc.tarento.com/app/profile/dashboard",
       "shortName": "Profile"
     },
     "feature_profile_update": {

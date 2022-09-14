@@ -22,7 +22,7 @@
   ],
   "rootOrg": "aastar",
   "defaultFontSize": "theme-igot",
-  "defaultLocale": "",
+  "defaultLocale": "en",
   "defaultThemeClass": "theme-igot",
   "details": {
     "appName": "Aastrika"
@@ -70,8 +70,8 @@
     ],
     "clientId": "portal",
     "key": "ws-kc-token-storage",
-    "realm": "wingspan",
-    "url": "https://sphere.aastrika.org/auth"
+    "realm": "sunbird",
+    "url": "https://aastrika-sb.idc.tarento.com/auth"
   },
   "locals": [
     {
@@ -85,7 +85,17 @@
       "isRTL": false
     },
     {
-      "isAvailable": false,
+      "isAvailable": true,
+      "isEnabled": true,
+      "locals": [
+        "hi",
+        "hi-IN"
+      ],
+      "path": "hi",
+      "isRTL": false
+    },
+    {
+      "isAvailable": true,
       "isEnabled": false,
       "locals": [
         "de"
@@ -317,12 +327,13 @@
             "actionBtnId": "feature_navigator",
             "config": {
               "type": "mat-button"
-            }
+            } 
           }
         }
       ],
       "right": [
         {
+<<<<<<< HEAD
           "type": "featureButton",
           "config": {
             "actionBtnId": "feature_notification",
@@ -347,6 +358,8 @@
           }
         },
         {
+=======
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
           "type": "widgetButton",
           "config": {
             "widgetType": "actionButton",
@@ -370,7 +383,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_catalog",
+            "actionBtnId": "feature_home",
             "config": {
               "type": "card-mini"
             }
@@ -379,7 +392,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_profile",
+            "actionBtnId": "feature_notification",
             "config": {
               "type": "card-mini"
             }
@@ -390,7 +403,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_search",
+            "actionBtnId": "feature_profile",
             "config": {
               "type": "card-mini"
             }

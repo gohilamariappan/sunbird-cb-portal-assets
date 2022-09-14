@@ -11,9 +11,13 @@
     "disablePidCheck": false,
     "isContentDownloadAvailable": false,
     "org": [
-        "dopt"
+        "SPhere Org Manager"
     ],
+<<<<<<< HEAD
     "rootOrg": "aastar",
+=======
+    "rootOrg": "SPhere Org Manager",
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     "fontSizes": [
         {
             "baseFontSize": "10px",
@@ -42,6 +46,10 @@
         }
     ],
     "indexHtmlMeta": {
+<<<<<<< HEAD
+=======
+        "description": "SPhere Org Manager is a learning platform aimed at promoting capacity development.",
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
         "appleTouchIcon180": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon.png",
         "appleTouchIcon57": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon-57x57.png",
         "icon16": "/assets/assets/configurations/manifest/fav_icons/favicon-16x16.png",
@@ -61,8 +69,13 @@
         ],
         "clientId": "portal",
         "key": "ws-kc-token-storage",
+<<<<<<< HEAD
         "realm": "sunbird",
         "url": "https://sphere.aastrika.org/auth"
+=======
+        "realm": "aastar",
+        "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     },
     "locals": [
         {
@@ -84,9 +97,14 @@
         "developedBy": "",
         "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
         "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
+<<<<<<< HEAD
         "poweredBy": "eagle eagle",
         "landingLogo": "",
         "appBottomNav": "/assets/instances/eagle/app_logos/aastar-source.png"
+=======
+        "poweredBy": "Tarento Technologies",
+        "landingLogo": ""
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     },
     "sources": [
         {
@@ -135,16 +153,16 @@
             },
             "themeFile": "theme-igot",
             "themeClass": "theme-igot",
-            "themeName": "Theme iGOT"
+            "themeName": "Theme Aastar"
         }
     ],
     "microsoft": {
         "clientId": "clientidd",
         "defaultEmailId": "eagle-support@eagle.com",
         "isConfigured": true,
-        "tenant": "eagle",
+        "tenant": "tarento",
         "validEmailExtensions": [
-            "@eagle.eagle.com"
+            "@tarento.com"
         ]
     },
     "validMailIdExtensionsForMailMe": [],
