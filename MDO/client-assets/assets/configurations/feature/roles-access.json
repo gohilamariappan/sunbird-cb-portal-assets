@@ -81,7 +81,7 @@
                     "uri": ""
                 },
                 "enabled": true,
-                "routerLink": "/app/home/events",
+                "routerLink": "/app/events",
                 "requiredRoles": [
                     "admin",
                     "mdo_admin"

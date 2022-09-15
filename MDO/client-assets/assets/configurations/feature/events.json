@@ -4,7 +4,7 @@
         "widgetSubType": "leftMenu",
         "widgetData": {
             "logo":true,
-            "logoPath": "../assets/instances/eagle/app_logos/aastar-source.png",
+            "logoPath": "../../assets/instances/eagle/app_logos/aastar-source.png",
             "name": "Sphere Administrator",
             "menus": [
                 {
@@ -65,7 +65,7 @@
                         "uri": ""
                     },
                     "enabled": true,
-                    "routerLink": "/app/home/events"
+                    "routerLink": "/app/events"
                 },
                 {
                     "name": "Work Allocation",

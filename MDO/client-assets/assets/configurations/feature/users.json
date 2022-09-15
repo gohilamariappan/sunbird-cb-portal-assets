@@ -64,7 +64,7 @@
                   "uri": ""
               },
               "enabled": true,
-              "routerLink": "/app/home/events"
+              "routerLink": "/app/events"
             },
             {
                 "name": "Work allocation tool",
