@@ -267,7 +267,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Author",
-      "url": "https://cbc.igot-dev.in/"
+      "url": "https://aastrika-stage.tarento.com/"
     },
     "feature_cbp": {
         "accessKey": "",
@@ -292,7 +292,7 @@
         "show": true,
         "status": "live",
         "toolTip": "Author",
-        "url": "https://cbp.igot-dev.in/"
+        "url": "https://cbp-aastrika-stage.tarento.com/"
     },
     "feature_authoring": {
       "accessKey": "",
@@ -337,7 +337,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp.igot-dev.in/"
+      "url": "https://cbp-aastrika-stage.tarento.com/"
     },
     "feature_cbc": {
       "accessKey": "",
@@ -357,7 +357,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbc.igot-dev.in/"
+      "url": "https://aastrika-stage.tarento.com/"
     },
     "feature_mdo": {
       "accessKey": "",
@@ -379,7 +379,7 @@
       "status": "live",
       "toolTip": "MDO",
       "shortName": "MDP",
-      "url": "https://mdo.igot-dev.in/"
+      "url": "https://org-aastrika-stage.tarento.com/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -399,7 +399,7 @@
       "status": "live",
       "toolTip": "SPV",
       "shortName": "SPV",
-      "url": "https://spv.igot-dev.in/"
+      "url": "https://admin-aastrika-stage.tarento.com/"
     },
     "feature_igot": {
       "accessKey": "",
@@ -410,7 +410,7 @@
         "igot"
       ],
       "isExternal": "true",
-      "name": "Karmayogi user",
+      "name": "Learner Portal",
       "permission": [
         "public"
       ],
@@ -418,7 +418,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://igot-dev.in/"
+      "url": "https://aastrika-stage.tarento.com"
     },
     "feature_frac": {
       "accessKey": "A",
@@ -765,7 +765,7 @@
       "show": true,
       "status": "live",
       "toolTip": "MDO",
-      "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+      "url": "https://org-aastrika-stage.tarento.com//"
     },
     "feature_spv": {
       "accessKey": "",
@@ -785,7 +785,7 @@
       "show": true,
       "status": "live",
       "toolTip": "SPV",
-      "url": "https://aastrika-sb-spv.idc.tarento.com/"
+      "url": "https://admin-aastrika-stage.tarento.com/"
   }
   },
   "groups": [
