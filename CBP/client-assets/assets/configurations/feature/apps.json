@@ -267,7 +267,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Author",
-      "url": "https://aastrika-stage.tarento.com/"
+      "url": "https://sphere.aastrika.org/"
     },
     "feature_cbp": {
         "accessKey": "",
@@ -292,7 +292,7 @@
         "show": true,
         "status": "live",
         "toolTip": "Author",
-        "url": "https://cbp-aastrika-stage.tarento.com/"
+        "url": "https://cbp-sphere.aastrika.org/"
     },
     "feature_authoring": {
       "accessKey": "",
@@ -337,7 +337,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp-aastrika-stage.tarento.com/"
+      "url": "https://cbp-sphere.aastrika.org/"
     },
     "feature_cbc": {
       "accessKey": "",
@@ -357,7 +357,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://aastrika-stage.tarento.com/"
+      "url": "https://sphere.aastrika.org/"
     },
     "feature_mdo": {
       "accessKey": "",
@@ -379,7 +379,7 @@
       "status": "live",
       "toolTip": "MDO",
       "shortName": "MDP",
-      "url": "https://org-aastrika-stage.tarento.com/"
+      "url": "https://org-sphere.aastrika.org/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -399,7 +399,7 @@
       "status": "live",
       "toolTip": "SPV",
       "shortName": "SPV",
-      "url": "https://admin-aastrika-stage.tarento.com/"
+      "url": "https://admin-sphere.aastrika.org/"
     },
     "feature_igot": {
       "accessKey": "",
@@ -418,7 +418,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://aastrika-stage.tarento.com"
+      "url": "https://sphere.aastrika.org"
     },
     "feature_frac": {
       "accessKey": "A",
@@ -765,7 +765,7 @@
       "show": true,
       "status": "live",
       "toolTip": "MDO",
-      "url": "https://org-aastrika-stage.tarento.com//"
+      "url": "https://org-sphere.aastrika.org//"
     },
     "feature_spv": {
       "accessKey": "",
@@ -785,7 +785,7 @@
       "show": true,
       "status": "live",
       "toolTip": "SPV",
-      "url": "https://admin-aastrika-stage.tarento.com/"
+      "url": "https://admin-sphere.aastrika.org/"
   }
   },
   "groups": [

@@ -28,7 +28,7 @@
                     "uri": ""
                 },
                 "enabled": true,
-                "routerLink": "/app/home/users"
+                "routerLink": "/app/users"
             },
             {
                 "name": "Roles and access",

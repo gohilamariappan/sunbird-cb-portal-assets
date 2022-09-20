@@ -328,7 +328,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp-aastrika-stage.tarento.com/"
+      "url": "https://cbp-sphere.aastrika.org/"
     },
     "feature_cbc": {
       "accessKey": "",
@@ -348,7 +348,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp-aastrika-stage.tarento.com/"
+      "url": "https://cbp-sphere.aastrika.org/"
     },
     "feature_mdo": {
       "accessKey": "",
@@ -370,7 +370,7 @@
       "status": "live",
       "toolTip": "MDO",
       "shortName": "MDP",
-      "url": "https://org-aastrika-stage.tarento.com/"
+      "url": "https://org-sphere.aastrika.org/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -390,7 +390,7 @@
       "status": "live",
       "toolTip": "SPV",
       "shortName": "SPV",
-      "url": "https://admin-aastrika-stage.tarento.com/"
+      "url": "https://admin-sphere.aastrika.org/"
     },
     "feature_igot": {
       "accessKey": "",
@@ -561,7 +561,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "https://aastrika-stage.tarento.com/app/profile-view",
+      "url": "https://sphere.aastrika.org/app/profile-view",
       "shortName": "Profile"
     },
     "feature_profile_update": {
