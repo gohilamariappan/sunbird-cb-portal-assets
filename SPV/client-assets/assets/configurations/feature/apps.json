@@ -283,7 +283,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp.igot-dev.in/"
+      "url": "https://cbp-sphere.aastrika.org/"
     },
     "feature_cbc": {
       "accessKey": "",
@@ -303,7 +303,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbc.igot-dev.in/"
+      "url": "https://sphere.aastrika.org/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -323,7 +323,7 @@
       "status": "live",
       "toolTip": "SPV",
       "shortName": "SPV",
-      "url": "https://aastrika-sb-spv.idc.tarento.com/"
+      "url": "https://admin-sphere.aastrika.org/"
     },
     "feature_create": {
       "accessKey": "",
@@ -580,7 +580,7 @@
         "igot"
       ],
       "isExternal": "true",
-      "name": "Karmayogi user",
+      "name": "Learner Portal",
       "permission": [
         "public"
       ],
@@ -588,7 +588,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://igot-dev.in/"
+      "url": "https://sphere.aastrika.org/"
     }
   },
   "groups": [
