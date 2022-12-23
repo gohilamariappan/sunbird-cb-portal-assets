@@ -55,8 +55,8 @@
                     ]
                 },
                 {
-                    "name": "Approvals",
-                    "key": "approvals",
+                    "name": "Self Assessment",
+                    "key": "self-assessment",
                     "fragment": false,
                     "render": true,
                     "badges": {
@@ -64,27 +64,26 @@
                         "uri": ""
                     },
                     "enabled": true,
-                    "routerLink": "/app/home/approvals",
+                    "routerLink": "/app/home/self-assessment",
                     "requiredRoles": [
                         "admin",
                         "mdo_admin"
                     ]
-                },      
+                },
                 {
-                    "name": "Work allocation tool",
-                    "key": "workallocation",
+                    "name": "Competencies",
+                    "key": "competencies",
                     "fragment": false,
                     "render": true,
                     "badges": {
-                      "enabled": false,
-                      "uri": ""
+                        "enabled": false,
+                        "uri": ""
                     },
                     "enabled": true,
-                    "routerLink": "/app/home/workallocation",
+                    "routerLink": "/app/home/competencies",
                     "requiredRoles": [
                         "admin",
-                        "mdo_admin",
-                        "wat_member"
+                        "mdo_admin"
                     ]
                 }
             ]
