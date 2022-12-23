@@ -57,8 +57,8 @@
                     ]
                 },
                 {
-                    "name": "Approvals",
-                    "key": "approvals",
+                    "name": "Self Assessment",
+                    "key": "self-assessment",
                     "fragment": false,
                     "render": true,
                     "badges": {
@@ -66,15 +66,15 @@
                         "uri": ""
                     },
                     "enabled": true,
-                    "routerLink": "/app/home/approvals",
+                    "routerLink": "/app/home/self-assessment",
                     "requiredRoles": [
                         "admin",
                         "mdo_admin"
                     ]
                 },
                 {
-                    "name": "Events",
-                    "key": "events",
+                    "name": "Competencies",
+                    "key": "competencies",
                     "fragment": false,
                     "render": true,
                     "badges": {
@@ -82,27 +82,10 @@
                         "uri": ""
                     },
                     "enabled": true,
-                    "routerLink": "/app/events",
+                    "routerLink": "/app/home/competencies",
                     "requiredRoles": [
                         "admin",
                         "mdo_admin"
-                    ]
-                },    
-                {
-                    "name": "Work allocation tool",
-                    "key": "workallocation",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                      "enabled": false,
-                      "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/workallocation",
-                    "requiredRoles": [
-                        "admin",
-                        "mdo_admin",
-                        "wat_member"
                     ]
                 }
             ]
