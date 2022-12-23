@@ -4,9 +4,7 @@
     "allowRedo": false,
     "allowRestore": false,
     "allowExpiry": false,
-    "allowReview": true,
     "allowPublish": true,
-    "newDesign": false,
     "urlPatternMatching": [
       {
         "allowReplace": false,
@@ -20,15 +18,14 @@
     "error": "/assets/configurations/common/feature/error.json"
   },
   "org": [
-    "dopt",
-    "istm"
+    "aastar"
   ],
-  "rootOrg": "igot",
+  "rootOrg": "aastar",
   "defaultFontSize": "theme-igot",
-  "defaultLocale": "",
+  "defaultLocale": "en",
   "defaultThemeClass": "theme-igot",
   "details": {
-    "appName": "iGOT"
+    "appName": "Aastrika"
   },
   "disablePidCheck": true,
   "isContentDownloadAvailable": false,
@@ -60,9 +57,9 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "iGOT 2.0 is a learning platform aimed at promoting capacity development among civil services. It is a solution built to be ‘fit for purpose’ to meet the exact learning needs of the civil services. iGOT 2.0 will help create impactful and relevant learning paths to achieve the outcomes relevant to their career aspirations.",
-    "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/manifest/favicon.ico"
+    "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
+    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest",
+    "xIcon": "/assets/configurations/learning.aastar.org/manifest/favicon.ico"
   },
   "keycloak": {
     "bearerExcludedUrls": [
@@ -74,7 +71,7 @@
     "clientId": "portal",
     "key": "ws-kc-token-storage",
     "realm": "sunbird",
-    "url": "https://igot-dev.in/auth"
+    "url": "https://aastrika-sb.idc.tarento.com/auth"
   },
   "locals": [
     {
@@ -88,7 +85,17 @@
       "isRTL": false
     },
     {
-      "isAvailable": false,
+      "isAvailable": true,
+      "isEnabled": true,
+      "locals": [
+        "hi",
+        "hi-IN"
+      ],
+      "path": "hi",
+      "isRTL": false
+    },
+    {
+      "isAvailable": true,
       "isEnabled": false,
       "locals": [
         "de"
@@ -162,19 +169,16 @@
   ],
   "chatBotUrl": "/chat-bot/#/bot=wingspanbotv7",
   "logos": {
-    "app": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-    "appTransparent": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-    "appBottomNav": "/assets/instances/eagle/app_logos/source.png",
-    "company": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
+    "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+    "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+    "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "defaultContent": "/assets/instances/eagle/app_logos/default.png",
+    "developedBy": "",
     "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
-    "developedBy": "Tarento Technologies",
-    "platformBanner": "/apis/public/v8/assets/common/misc/about-wingspan.jpg",
-    "poweredBy": "Tarento",
+    "poweredBy": "eagle eagle",
     "landingLogo": "",
-    "defaultSourceLogo": "/assets/instances/eagle/app_logos/source.png",
-    "playListLogo": "/assets/instances/eagle/about-page/about-header.jpg"
+"appBottomNav": "/assets/instances/eagle/app_logos/source.png"
   },
   "sources": [
     {
@@ -209,12 +213,12 @@
   },
   "telemetryConfig": {
     "pdata": {
-      "id": "sunbird-cb-portal",
+      "id": "lex-web-ui",
       "ver": "1.0.0",
-      "pid": "sunbird-cb-portal"
+      "pid": ""
     },
     "env": "prod",
-    "channel": "igot",
+    "channel": "aastar",
     "batchsize": 10,
     "host": "",
     "endpoint": "/apis/protected/v8/user/telemetry",
@@ -226,6 +230,26 @@
   "themes": [
     {
       "color": {
+        "accent": "#607d8b",
+        "primary": "#9e9e9e",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-grey",
+      "themeClass": "theme-grey",
+      "themeName": "Grey Theme"
+    },
+    {
+      "color": {
+        "accent": "#607d8b",
+        "primary": "#673ab7",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-deep-purple",
+      "themeClass": "theme-deep-purple",
+      "themeName": "Deep Purple Theme"
+    },
+    {
+      "color": {
         "accent": "#00A9F4",
         "primary": "#ffffff",
         "warn": "#f44336"
@@ -233,6 +257,46 @@
       "themeFile": "theme-igot",
       "themeClass": "theme-igot",
       "themeName": "iGOT Theme"
+    },
+    {
+      "color": {
+        "accent": "#607d8b",
+        "primary": "#3f51b5",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-indigo",
+      "themeClass": "theme-indigo",
+      "themeName": "Indigo Theme"
+    },
+    {
+      "color": {
+        "accent": "#607d8b",
+        "primary": "#03a9f4",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-lite-blue",
+      "themeClass": "theme-lite-blue",
+      "themeName": "Lite Blue Theme"
+    },
+    {
+      "color": {
+        "accent": "#009688",
+        "primary": "#ff9800",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-orange",
+      "themeClass": "theme-orange",
+      "themeName": "Orange Theme"
+    },
+    {
+      "color": {
+        "accent": "#af235f",
+        "primary": "#005f87",
+        "warn": "#f44336"
+      },
+      "themeFile": "theme-teal",
+      "themeClass": "theme-teal",
+      "themeName": "Teal Theme"
     }
   ],
   "validMailIdExtensionsForMailMe": [
@@ -248,32 +312,68 @@
   },
   "primaryNavBarConfig": {
     "mediumScreen": {
-      "left": [],
-      "right": [
+      "left": [
+        {
+          "type": "widgetButton",
+          "config": {
+            "widgetType": "actionButton",
+            "widgetSubType": "actionButtonCatalog",
+            "widgetData": {}
+          }
+        },
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_home",
-            "toolTip": "Home",
+            "actionBtnId": "feature_navigator",
+            "config": {
+              "type": "mat-button"
+            } 
+          }
+        }
+      ],
+      "right": [
+        {
+<<<<<<< HEAD
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_notification",
+            "toolTip": "Notification",
             "className": "fixtopMargin",
             "config": {
-              "actionBtnId": "feature_home",
+              "type": "mat-icon-button"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_mydashboard",
+            "toolTip": "My Dashboard",
+            "className": "fixtopMargin",
+            "config": {
+              "actionBtnId": "feature_mydashboard",
               "type": "card-mini",
               "hideTitle": true
             }
           }
         },
         {
+=======
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
           "type": "widgetButton",
           "config": {
             "widgetType": "actionButton",
             "widgetSubType": "actionButtonProfile",
+<<<<<<< HEAD
             "widgetData": {
-              "disableViewProfile" : true,
-              "disableAllFeatures" : true,
-              "disableSettings" : true
+              "disableViewProfile": true,
+              "disableAllFeatures": true,
+              "disableSettings": true
             },
             "hideTitle": true
+=======
+            "widgetData": {}
+>>>>>>> 831c6fab73b09208d2b18c62a5eca7795051425e
           }
         }
       ]
@@ -283,7 +383,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_catalog",
+            "actionBtnId": "feature_home",
             "config": {
               "type": "card-mini"
             }
@@ -292,7 +392,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_profile",
+            "actionBtnId": "feature_notification",
             "config": {
               "type": "card-mini"
             }
@@ -303,7 +403,7 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_search",
+            "actionBtnId": "feature_profile",
             "config": {
               "type": "card-mini"
             }
@@ -344,6 +444,7 @@
       "right": []
     }
   },
+<<<<<<< HEAD
   "hubs": [
     {
       "path": "/page/learn",
@@ -384,8 +485,18 @@
       "desc": "Add your competencies, see what others are adding",
       "icon": "extension",
       "accessKey": "O"
+    },
+    {
+      "path": "/app/event-hub",
+      "active": true,
+      "hubname": "Events",
+      "desc": "Add your events",
+      "icon": "event",
+      "accessKey": "E"
     }
   ],
+  "featuredApps": [],
+=======
   "featuredApps": [
     "feature_playlist",
     "feature_goals",
@@ -394,11 +505,20 @@
     "feature_create_konnect",
     "feature_konnect"
   ],
+>>>>>>> 831c6fab73b09208d2b18c62a5eca7795051425e
   "intranetIframeUrls": [],
   "introVideo": {
     "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
   },
   "tourVideo": {
-    "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
+    "en": "/assets/common/user-manual/video-guide.mp4"
+  },
+  "portalUrls": {
+    "igot": "https://igot-dev.in/",
+    "spv": "https://spv.igot-dev.in/",
+    "mdo": "https://mdo.igot-dev.in/",
+    "cbc": "https://cbc.igot-dev.in/",
+    "cbp": "https://cbp.igot-dev.in/",
+    "frac": "https://frac-dictionary.igot-dev.in/"
   }
 }
