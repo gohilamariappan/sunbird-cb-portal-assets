@@ -23,7 +23,7 @@
     "dopt",
     "istm"
   ],
-  "rootOrg": "SPhere Org Manager",
+  "rootOrg": "aastar",
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
   "defaultThemeClass": "theme-igot",
@@ -60,9 +60,9 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "SPhere Org Manager is a learning platform aimed at promoting capacity development.",
-    "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/manifest/favicon.ico"
+    "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
+    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest",
+    "xIcon": "/assets/configurations/learning.aastar.org/manifest/favicon.ico"
   },
   "locals": [
     {
@@ -152,7 +152,7 @@
   "logos": {
     "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
-    "appBottomNav": "/assets/instances/eagle/app_logos/source.png",
+    "appBottomNav": "/assets/instances/eagle/app_logos/aastar-source.png",
     "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "defaultContent": "/assets/instances/eagle/app_logos/default.png",
     "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
@@ -192,7 +192,7 @@
     "isConfigured": true,
     "tenant": "tarentotechnologies",
     "validEmailExtensions": [
-      "@tarento.tarento.com"
+      "@tarento.com"
     ]
   },
   "telemetryConfig": {
@@ -202,7 +202,7 @@
       "pid": ""
     },
     "env": "prod",
-    "channel": "aastar",
+    "channel": "SPhere Org Manager",
     "batchsize": 10,
     "host": "",
     "endpoint": "/apis/protected/v8/user/telemetry",
@@ -220,7 +220,7 @@
       },
       "themeFile": "theme-igot",
       "themeClass": "theme-igot",
-      "themeName": "Aastar Theme"
+      "themeName": "SPhere Org Manager Theme"
     }
   ],
   "validMailIdExtensionsForMailMe": [

@@ -129,6 +129,24 @@
       "url": "/page/home",
       "shortName": "Home"
     },
+    "feature_mydashboard": {
+      "accessKey": "",
+      "icon": "bar_chart",
+      "iconType": "mat-icon",
+      "id": "feature_mydashboard",
+      "keywords": [
+        "dashboard"
+      ],
+      "name": "My Dashboard",
+      "permission": [
+        "ABOUT_US"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "My Dashboard",
+      "url": "/app/my-dashboard",
+      "shortName": "MyDashboard"
+    },
     "feature_badges": {
       "accessKey": "",
       "icon": "stars",
@@ -148,6 +166,32 @@
       "url": "/app/profile/competency/badges",
       "shortName": "Badges"
     },
+<<<<<<< HEAD
+    "feature_catalog": {
+      "accessKey": "",
+      "icon": "explore",
+      "iconType": "mat-icon",
+      "id": "feature_catalog",
+      "keywords": [
+        "catalog",
+        "explore",
+        "inventory",
+        "list",
+        "brochure",
+        "overview"
+      ],
+      "name": "Explore",
+      "permission": [
+        ""
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Explore",
+      "url": "/page/learn",
+      "shortName": "Explore"
+    },
+=======
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     "feature_authoring": {
       "accessKey": "",
       "icon": "account_box",
@@ -167,7 +211,54 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
+<<<<<<< HEAD
+      "url": "https://cbc.igot-dev.in/"
+    },
+   
+    "feature_mdo": {
+      "accessKey": "",
+      "icon": "/assets/icons/MDO_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_mdo",
+      "keywords": [
+        "mdo"
+      ],
+      "isExternal": "true",
+      "name": "MDO",
+      "permission": [
+        "admin",
+        "mdo_admin",
+        "wat_user",
+        "wat_member"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "MDO",
+      "shortName": "MDP",
+      "url": "https://mdo.igot-dev.in/"
+    },
+    "feature_spv": {
+      "accessKey": "",
+      "icon": "/assets/icons/SPV_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_spv",
+      "keywords": [
+        "spv"
+      ],
+      "isExternal": "true",
+      "name": "SPV",
+      "permission": [
+        "superAdmin",
+        "spv_admin"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "SPV",
+      "shortName": "SPV",
+      "url": "https://spv.igot-dev.in/"
+=======
       "url": "/author/my-content?status=all"
+>>>>>>> 831c6fab73b09208d2b18c62a5eca7795051425e
     },
     "feature_create": {
       "accessKey": "",
@@ -612,7 +703,15 @@
     },
     {
       "featureIds": [
+<<<<<<< HEAD
+        "feature_mdo",
+        "feature_cbp",
+        "feature_spv",
+        "feature_cbc",
+        "feature_igot"
+=======
         "feature_admin"
+>>>>>>> 831c6fab73b09208d2b18c62a5eca7795051425e
       ],
       "icon": "",
       "iconType": "none",

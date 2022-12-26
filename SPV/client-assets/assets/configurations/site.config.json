@@ -23,12 +23,20 @@
     "dopt",
     "istm"
   ],
+<<<<<<< HEAD
+  "rootOrg": "aastar",
+=======
   "rootOrg": "Sphere Administrator",
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
   "defaultThemeClass": "theme-igot",
   "details": {
+<<<<<<< HEAD
+    "appName": "Aastrika"
+=======
     "appName": "Sphere Administrator"
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
   },
   "disablePidCheck": true,
   "isContentDownloadAvailable": false,
@@ -60,9 +68,15 @@
     }
   ],
   "indexHtmlMeta": {
+<<<<<<< HEAD
+    "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
+    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest",
+    "xIcon": "/assets/configurations/learning.aastar.org/manifest/favicon.ico"
+=======
     "description": "Sphere Administrator  is a learning platform aimed at promoting capacity development.",
     "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
     "xIcon": "/assets/configurations/manifest/favicon.ico"
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
   },
   "keycloak": {
     "bearerExcludedUrls": [
@@ -73,8 +87,13 @@
     ],
     "clientId": "portal",
     "key": "ws-kc-token-storage",
+<<<<<<< HEAD
+    "realm": "wingspan",
+    "url": "https://sphere.aastrika.org/auth"
+=======
     "realm": "aastar",
     "url": "https://aastrika-sb-spv.idc.tarento.com/"
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
   },
   "locals": [
     {
@@ -164,7 +183,11 @@
   "logos": {
     "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+<<<<<<< HEAD
+    "appBottomNav": "/assets/instances/eagle/app_logos/aastar-aastar-source.png",
+=======
     "appBottomNav": "/assets/instances/eagle/app_logos/aastar-source.png",
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "defaultContent": "/assets/instances/eagle/app_logos/default.png",
     "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
@@ -173,7 +196,11 @@
     "platformBanner": "/apis/public/v8/assets/common/misc/about-wingspan.jpg",
     "poweredBy": "Tarento",
     "landingLogo": "",
+<<<<<<< HEAD
+    "defaultSourceLogo": "/assets/instances/eagle/app_logos/aastar-aastar-source.png",
+=======
     "defaultSourceLogo": "/assets/instances/eagle/app_logos/aastar-source.png",
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     "playListLogo": "/assets/instances/eagle/about-page/about-header.jpg"
   },
   "sources": [
@@ -204,7 +231,7 @@
     "isConfigured": true,
     "tenant": "tarentotechnologies",
     "validEmailExtensions": [
-      "@tarento.tarento.com"
+      "@tarento.com"
     ]
   },
   "telemetryConfig": {
@@ -252,7 +279,11 @@
       },
       "themeFile": "theme-igot",
       "themeClass": "theme-igot",
+<<<<<<< HEAD
+      "themeName": "Aastar  Theme"
+=======
       "themeName": "Aastar Theme" 
+>>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
     },
     {
       "color": {
