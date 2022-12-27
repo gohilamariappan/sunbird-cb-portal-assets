@@ -410,7 +410,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "/app/profile/dashboard",
+      "url": "/app/profile-view",
       "shortName": "Profile"
     },
     "feature_profile_update": {

@@ -388,15 +388,6 @@
               "type": "card-mini"
             }
           }
-        },
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_notification",
-            "config": {
-              "type": "card-mini"
-            }
-          }
         }
       ],
       "right": [

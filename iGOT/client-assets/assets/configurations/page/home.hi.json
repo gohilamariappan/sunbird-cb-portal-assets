@@ -48,11 +48,11 @@
                   "redirectUrl": "/app/goals/me/all",
                   "queryParams": {
                     "q": "Salesforce",
-                    "lang": "en",
+                    "lang": "hi",
                     "f": "{}"
                   },
-                  "intro": "हमारी दृष्टि एक ऐसा भविष्य है जिसमें... ",
-                  "title": "प्रसव के दौरान हर महिला के साथ सम्मान और सम्मान के साथ व्यवहार किया जाता है"
+                  "intro": "हम ऐसा भविष्य बनाना चाहते हैं जिसमें...",
+                  "title": "प्रसव के दौरान हर महिला को सम्मान मिले और उसके आत्म सम्मान को कोई हानि न हो"
                 },
                 {
                   "banners": {
@@ -66,11 +66,11 @@
                   "redirectUrl": "/app/goals/me/all",
                   "queryParams": {
                     "q": "Salesforce",
-                    "lang": "en",
+                    "lang": "hi",
                     "f": "{}"
                   },
-                  "intro": "हमारा विशेष कार्य",
-                  "title": "लाखों लोगों के जन्म के अनुभव को बदलना"
+                  "intro": "हमारा लक्ष्य है कि हम",
+                  "title": "लाखों महिलाओं के प्रसव से जुड़े अनुभवों को बेहतर बनाना चाहते हैं"
                 }
               ]
             }
@@ -98,7 +98,7 @@
                         "widgetType": "element",
                         "widgetSubType": "elementHtml",
                         "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">यह वह जगह है जहां आप देखेंगे कि अभी कौन से विषय चर्चा में हैं।</p>"
+                          "html": "<p class=\"ws-mat-primary-text\">यहाँ आपको ऐसे विषयों के बारे में जानकारी मिलेगी जो वर्तमान में सुर्खियों में हैं.</p>"
                         }
                       }
                     },
@@ -116,6 +116,9 @@
                             ],
                             "contentType": [
                               "Course"
+                            ],
+                            "status": [
+                              "Live"
                             ]
                           },
                           "sort_by": {
@@ -140,12 +143,12 @@
                 "strips": [
                   {
                     "key": "continueLearning",
-                    "title": "मेरे पाठ्यक्रम",
+                    "title": "आपके पाठ्यक्रम",
                     "noDataWidget": {
                       "widgetType": "element",
                       "widgetSubType": "elementHtml",
                       "widgetData": {
-                        "html": "<p class=\"ws-mat-primary-text\">आपके द्वारा प्रारंभ की जाने वाली शिक्षण गतिविधियां यहां दिखाई देंगी</p>"
+                        "html": "<p class=\"ws-mat-primary-text\">सीखने से जुड़ी आपकी गतिविधियां यहाँ दिखेंगी</p>"
                       }
                     },
                     "info": {
@@ -159,7 +162,7 @@
                         "widgetType": "element",
                         "widgetSubType": "elementHtml",
                         "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">ये सीखने की गतिविधियाँ हैं जिन्हें आपने शुरू किया है लेकिन अभी तक समाप्त नहीं किया है। चलते रहने के लिए तैयार हैं?</p>"
+                          "html": "<p class=\"ws-mat-primary-text\">सीखने से जुड़ी ये ऐसी गतिविधियां हैं जो आपने शुरू की हैं लेकिन अभी तक पूरी नहीं की हैं. इन्हें जारी रखें?</p>"
                         }
                       }
                     },
