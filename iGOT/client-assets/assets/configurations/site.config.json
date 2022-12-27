@@ -333,7 +333,6 @@
       ],
       "right": [
         {
-<<<<<<< HEAD
           "type": "featureButton",
           "config": {
             "actionBtnId": "feature_notification",
@@ -358,22 +357,16 @@
           }
         },
         {
-=======
->>>>>>> ef725ffe6bc973a4b29961f8774dd1c4afbfd654
           "type": "widgetButton",
           "config": {
             "widgetType": "actionButton",
             "widgetSubType": "actionButtonProfile",
-<<<<<<< HEAD
             "widgetData": {
               "disableViewProfile": true,
               "disableAllFeatures": true,
               "disableSettings": true
             },
             "hideTitle": true
-=======
-            "widgetData": {}
->>>>>>> 831c6fab73b09208d2b18c62a5eca7795051425e
           }
         }
       ]
@@ -435,7 +428,6 @@
       "right": []
     }
   },
-<<<<<<< HEAD
   "hubs": [
     {
       "path": "/page/learn",
@@ -487,16 +479,6 @@
     }
   ],
   "featuredApps": [],
-=======
-  "featuredApps": [
-    "feature_playlist",
-    "feature_goals",
-    "feature_blogs",
-    "feature_Q&A",
-    "feature_create_konnect",
-    "feature_konnect"
-  ],
->>>>>>> 831c6fab73b09208d2b18c62a5eca7795051425e
   "intranetIframeUrls": [],
   "introVideo": {
     "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
