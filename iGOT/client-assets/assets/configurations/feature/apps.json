@@ -521,7 +521,7 @@
       "show": true,
       "status": "live",
       "toolTip": "MDO",
-      "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+      "url": "https://org-sphere.aastrika.org/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -541,7 +541,7 @@
       "show": true,
       "status": "live",
       "toolTip": "SPV",
-      "url": "https://aastrika-sb-spv.idc.tarento.com/"
+      "url": "https://admin-sphere.aastrika.org/"
     }
   },
   "groups": [
