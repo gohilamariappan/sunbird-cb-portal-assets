@@ -63,7 +63,7 @@
       "clientId": "portal",
       "key": "ws-kc-token-storage",
       "realm": "sunbird",
-      "url": "https://aastrika-stage.tarento.com/auth"
+      "url": "https://sphere.aastrika.org/auth"
   }, 
   "locals": [
       {

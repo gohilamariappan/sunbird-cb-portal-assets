@@ -129,24 +129,6 @@
       "url": "/page/home",
       "shortName": "Home"
     },
-    "feature_mydashboard": {
-      "accessKey": "",
-      "icon": "bar_chart",
-      "iconType": "mat-icon",
-      "id": "feature_mydashboard",
-      "keywords": [
-        "dashboard"
-      ],
-      "name": "My Dashboard",
-      "permission": [
-        "ABOUT_US"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "My Dashboard",
-      "url": "/app/my-dashboard",
-      "shortName": "MyDashboard"
-    },
     "feature_badges": {
       "accessKey": "",
       "icon": "stars",
@@ -165,29 +147,6 @@
       "toolTip": "Badges",
       "url": "/app/profile/competency/badges",
       "shortName": "Badges"
-    },
-    "feature_catalog": {
-      "accessKey": "",
-      "icon": "explore",
-      "iconType": "mat-icon",
-      "id": "feature_catalog",
-      "keywords": [
-        "catalog",
-        "explore",
-        "inventory",
-        "list",
-        "brochure",
-        "overview"
-      ],
-      "name": "Explore",
-      "permission": [
-        ""
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "Explore",
-      "url": "/page/learn",
-      "shortName": "Explore"
     },
     "feature_authoring": {
       "accessKey": "",
@@ -360,7 +319,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "/app/profile-view",
+      "url": "/app/profile/dashboard",
       "shortName": "Profile"
     },
     "feature_profile_update": {
@@ -530,13 +489,9 @@
       "isExternal": "true",
       "name": "CBP",
       "permission": [
-        "CONTENT_CREATOR", 
-        "CONTENT_REVIEWER", 
-        "CONTENT_PUBLISHER", 
-        "spv_admin",
-        "mdo_admin",
-        "MDO_ADMIN",
-        "SPV_ADMIN"
+        "CONTENT_CREATOR",
+        "CONTENT_REVIEWER",
+        "CONTENT_PUBLISHER"
       ],
       "show": true,
       "status": "live",
@@ -562,7 +517,7 @@
       "show": true,
       "status": "live",
       "toolTip": "MDO",
-      "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+      "url": "https://org-sphere.aastrika.org/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -582,7 +537,7 @@
       "show": true,
       "status": "live",
       "toolTip": "SPV",
-      "url": "https://aastrika-sb-spv.idc.tarento.com/"
+      "url": "https://admin-sphere.aastrika.org/"
     }
   },
   "groups": [
@@ -663,7 +618,7 @@
       ],
       "name": "Admin",
       "toolTip": "Admin",
-      "hasRole": [ 
+      "hasRole": [
         "content-creator",
         "channel-creator",
         "ka-creator",

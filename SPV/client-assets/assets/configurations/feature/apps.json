@@ -258,7 +258,7 @@
       "status": "live",
       "toolTip": "Frac",
       "shortName": "Frac",
-      "url": "https://frac-dictionary.igot-dev.in/"      
+      "url": "https://frac-dictionary.igot-dev.in/"
     },
     "feature_cbp": {
       "accessKey": "",
@@ -449,7 +449,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "https://aastrika-sb.idc.tarento.com/app/profile/dashboard",
+      "url": "https://sphere.aastrika.org/app/profile-view",
       "shortName": "Profile"
     },
     "feature_profile_update": {
