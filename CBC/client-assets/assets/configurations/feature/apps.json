@@ -329,7 +329,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbc.igot-dev.in/"
+      "url": "https://sphere.aastrika.org/"
     },
     "feature_mdo": {
       "accessKey": "",
@@ -351,7 +351,7 @@
       "status": "live",
       "toolTip": "MDO",
       "shortName": "MDP",
-      "url": "https://mdo.igot-dev.in/"
+      "url": "https://org-sphere.aastrika.org/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -371,8 +371,9 @@
       "status": "live",
       "toolTip": "SPV",
       "shortName": "SPV",
-      "url": "https://spv.igot-dev.in/"
-    }, "feature_igot": {
+      "url": "https://admin-sphere.aastrika.org/"
+    },
+    "feature_igot": {
       "accessKey": "",
       "icon": "/assets/icons/Karmayogi_portal.svg",
       "iconType": "mat-icon",
@@ -389,7 +390,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://igot-dev.in/"
+      "url": "https://sphere.aastrika.org/"
     },
     "feature_create": {
       "accessKey": "",
@@ -849,6 +850,6 @@
         "public"
       ]
     }
-    
+
   ]
 }

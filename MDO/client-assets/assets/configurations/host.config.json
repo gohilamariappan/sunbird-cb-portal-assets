@@ -13,7 +13,7 @@
     "org": [
         "SPhere Org Manager"
     ],
-    "rootOrg": "aastar",
+    "rootOrg": "SPhere Org Manager",
     "fontSizes": [
         {
             "baseFontSize": "10px",
@@ -42,6 +42,7 @@
         }
     ],
     "indexHtmlMeta": {
+        "description": "SPhere Org Manager is a learning platform aimed at promoting capacity development.",
         "appleTouchIcon180": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon.png",
         "appleTouchIcon57": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon-57x57.png",
         "icon16": "/assets/assets/configurations/manifest/fav_icons/favicon-16x16.png",
