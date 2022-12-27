@@ -491,11 +491,7 @@
       "permission": [
         "CONTENT_CREATOR",
         "CONTENT_REVIEWER",
-        "CONTENT_PUBLISHER",
-        "spv_admin",
-        "mdo_admin",
-        "MDO_ADMIN",
-        "SPV_ADMIN"
+        "CONTENT_PUBLISHER"
       ],
       "show": true,
       "status": "live",
