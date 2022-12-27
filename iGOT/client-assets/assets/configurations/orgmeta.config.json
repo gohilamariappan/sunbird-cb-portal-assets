@@ -86,6 +86,12 @@
         "sourceId": "",
         "logo": "https://aastar-assets.s3.ap-south-1.amazonaws.com/MOHFW-Logo.jpg",
         "about": "Ministry of Health & Family Welfare, Govt. of India"
+      },
+        {
+        "sourceName": "Jhpeigo",
+        "sourceId": "",
+        "logo": "https://www.jhpiego.org/wp-content/themes/understrap-child/img/Jhpiego_50thAnn_logo_WhiteGold_RGB.png",
+        "about": "Jhpeigo"
       }
   
     ]

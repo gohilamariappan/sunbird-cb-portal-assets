@@ -129,6 +129,24 @@
       "url": "/page/home",
       "shortName": "Home"
     },
+    "feature_mydashboard": {
+      "accessKey": "",
+      "icon": "bar_chart",
+      "iconType": "mat-icon",
+      "id": "feature_mydashboard",
+      "keywords": [
+        "dashboard"
+      ],
+      "name": "My Dashboard",
+      "permission": [
+        "ABOUT_US"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "My Dashboard",
+      "url": "/app/my-dashboard",
+      "shortName": "MyDashboard"
+    },
     "feature_badges": {
       "accessKey": "",
       "icon": "stars",
@@ -147,6 +165,29 @@
       "toolTip": "Badges",
       "url": "/app/profile/competency/badges",
       "shortName": "Badges"
+    },
+    "feature_catalog": {
+      "accessKey": "",
+      "icon": "explore",
+      "iconType": "mat-icon",
+      "id": "feature_catalog",
+      "keywords": [
+        "catalog",
+        "explore",
+        "inventory",
+        "list",
+        "brochure",
+        "overview"
+      ],
+      "name": "Explore",
+      "permission": [
+        ""
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Explore",
+      "url": "/page/learn",
+      "shortName": "Explore"
     },
     "feature_authoring": {
       "accessKey": "",
@@ -319,7 +360,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "/app/profile/dashboard",
+      "url": "/app/profile-view",
       "shortName": "Profile"
     },
     "feature_profile_update": {
