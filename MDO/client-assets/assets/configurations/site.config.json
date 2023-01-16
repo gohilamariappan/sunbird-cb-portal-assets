@@ -150,10 +150,10 @@
   ],
   "chatBotUrl": "/chat-bot/#/bot=wingspanbotv7",
   "logos": {
-    "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
-    "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+    "app": "/assets/instances/eagle/app_logos/aastar-sphere-logo.svg",
+    "appTransparent": "/assets/instances/eagle/app_logos/aastar-sphere-logo.svg",
     "appBottomNav": "/assets/instances/eagle/app_logos/aastar-source.png",
-    "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+    "company": "/assets/instances/eagle/app_logos/aastar-sphere-logo.svg",
     "defaultContent": "/assets/instances/eagle/app_logos/default.png",
     "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
