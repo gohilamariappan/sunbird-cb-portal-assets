@@ -38,26 +38,7 @@
                 "widgetData": {
                   "strips": [
                     {
-                      "key": "latest",
-                      "title": "Latest Courses",
-                      "info": {
-                        "mode": "below",
-                        "visibilityMode": "hidden",
-                        "icon": {
-                          "icon": "info",
-                          "scale": 0.8
-                        },
-                        "widget": {
-                          "widgetType": "element",
-                          "widgetSubType": "elementHtml",
-                          "widgetData": {
-                          }
-                        }
-                      },
-                      "stripConfig": {
-                        "cardSubType": "standard",
-                        "postCardForSearch": true
-                      }, 
+                     
                       "filters": [],
                       "request": {
                         "searchV6": {
