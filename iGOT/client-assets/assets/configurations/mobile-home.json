@@ -2,7 +2,7 @@
     "userLoggedInSection": {
         "firstCourse": true,
         "howDoesItWork": false,
-        "categories": true,
+        "categories": false,
         "topCertifiedCourse": true,
         "featured": true,
         "followPeople": false,
