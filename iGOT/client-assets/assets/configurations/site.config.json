@@ -58,8 +58,7 @@
   ],
   "indexHtmlMeta": {
     "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
-    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/learning.aastar.org/manifest/favicon.ico"
+    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest"
   },
   "keycloak": {
     "bearerExcludedUrls": [
